@@ -20,7 +20,7 @@ if(isset($_POST["submit"])){
 
   
 if (preg_match("/^\w@emsi.ma{1}$/",$email)==0) {
-   echo"Email is not valid a w9 <br>";
+   echo"Email is not valid <br>";
    }
    if (strlen($password)<8) {
    echo"Password must be at least 8 charactes long <br>";
